@@ -42,4 +42,16 @@ docker run -d -e CSVSERVER_BORDER=Orange -v <your working directory>/solution/in
 
 step 10) launch http://localhost:9393
 
+###################################################################################################################################################################################
+                                                                                   Part 2
+										   =======
 
+Step1) Create a docker compose file 
+
+step 2 ) ensure all the file are ther in the rpository
+
+step 3) run docker compose up -d(for the detached mode)
+
+step4) validate by http://localhost:9393
+
+################################################################################################################################################################################
