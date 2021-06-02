@@ -10,3 +10,11 @@ services:
     - 9393:9300
     volumes:
     - ./inputFile:/csvserver/inputdata
+  
+  promthe:  
+    image: prom/prometheus:v2.22.0
+    container_name: monitoring
+    volumes:
+    - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+    - 9090:9090

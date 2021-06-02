@@ -16,7 +16,7 @@ if [  $# -ge 2 ]
 		exit 1
 	fi
 if [ $# -eq 0 ] ; then
-for i in $(seq 0 10); do echo  "$i,$RANDOM" >> inputFile; done
+for i in $(seq 0 9); do echo  "$i,$RANDOM" >> inputFile; done
 else
 for i in $(seq 0 $1); do echo  "$i,$RANDOM" >> inputFile; done
 fi
